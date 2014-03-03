@@ -45,3 +45,7 @@ For testing, you need adding below function in JcrTools.java in package org.mode
         }
         return fileNode;
     }
+
+
+NOTE: I just post this prototype version as the project is temporaly paused.
+Please feel free to add your comment and concerns.
