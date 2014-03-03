@@ -1,0 +1,18 @@
+{
+    "name" : "Federated repository with projections",
+
+    "externalSources" : {
+        "jcloudsfiles" : {
+            "classname" : "org.fcrepo.federation.jcloudsconnector.JCloudsConnector",
+            "directoryPath" : "target/files",
+            "readonly" : false,
+            "identity" : "yourid",
+			"credential" : "yourCredential",
+			"containerName": "cjtest1",
+			"provider": "aws-s3",  
+			"providerUrlPrefix": "https://s3.amazonaws.com",         
+            "projections" : [
+                "default:/bags => /dir1"  ]
+        }
+    }
+}
