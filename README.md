@@ -3,9 +3,9 @@ fcrepo-modeshape-jcloudsconnector
 A modeshape connector to connect to the most clouds providers via JClouds lib, with which you could access any file in the Clouds in the modeshape based system like fedora future.
 
 For more infomation, please referrence:
-1) https://github.com/futures
-2) https://github.com/ModeShape/modeshape
-3) https://github.com/jclouds/jclouds
+    1) https://github.com/futures
+    2) https://github.com/ModeShape/modeshape
+    3) https://github.com/jclouds/jclouds
 
 
 You also need Clouds account to run this connector;
